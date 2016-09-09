@@ -9,15 +9,15 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+**touch <name.file>** -- creates a new file
 
 ---
 
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
+`ls` -- list files and directories
+`ls -a`  -- list all files and directories, including those starting with "." that are normally hidden
 `ls -l`  
 `ls -lh`  
 `ls -lah`  
