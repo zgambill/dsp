@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I installed Python 3, largely because  think it's the future-proof thing to do. Libraries are being made compatible, and new libraries are being made for Python 3. Plus it's still being updated and there is more support. Additionally, I was never really the kind of person to keep using XP when everybody else had moved to Windows 8, and now I'm even a Mac user.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Open up terminal, and type in "python" to open a new interpreter instance and see the version, and Control + D to get out of the interpreter. Additionally, I would try "python3" in terminal. I don't know if this is standard, but I have both Python 2.7 and Python 3.5 installed, with "python" initiating 2.7, and "python3" initiating 3.5.
 
  
 
