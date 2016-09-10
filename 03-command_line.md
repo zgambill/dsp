@@ -13,7 +13,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 - **cp <file/directory> <directory>** -- copies a file/directory into another file/directory
 - **rm [-r] <file/directory>** -- removes a file; use -r to remove a directory and all child directories/files
 - **mv <file/directory> <file/directory>** -- moves a file/directory to another file/directory. Move multiple files by making the last argument the destination.
-- 
+ 
 ---
 
 ###Q2.  List Files in Unix   
