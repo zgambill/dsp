@@ -25,16 +25,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
+
+
 'ls' lists files and directories within the working directory
-
 'ls -a' lsits all files and directories within the working directory, including those starting with "." that are normally hidden
-
 'ls -l' lists all files/directories within the working directory in long format
-
 'ls -lh'
-
 'ls -lah' lists 
-
 'ls -t' lists all files/directories and orders them by date of last modification
 
 
