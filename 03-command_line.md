@@ -9,8 +9,8 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-**touch <name.file>** -- creates a new file
-**cp <file/directory> <directory>** -- copies a file/directory into another file/directory
+- **touch <name.file>** -- creates a new file
+- **cp <file/directory> <directory>** -- copies a file/directory into another file/directory
 
 ---
 
