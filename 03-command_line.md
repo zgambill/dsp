@@ -17,8 +17,8 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls` -- list files and directories
-`ls -a`  -- list all files and directories, including those starting with "." that are normally hidden
+`ls` 
+`ls -a`  
 `ls -l`  
 `ls -lh`  
 `ls -lah`  
@@ -26,11 +26,17 @@ What do the following commands do:
 `ls -Glp`  
 
 'ls' lists files and directories within the working directory
+
 'ls -a' lsits all files and directories within the working directory, including those starting with "." that are normally hidden
+
 'ls -l' lists all files/directories within the working directory in long format
+
 'ls -lh'
+
 'ls -lah' lists 
+
 'ls -t' lists all files/directories and orders them by date of last modification
+
 
 ---
 
