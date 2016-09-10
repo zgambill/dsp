@@ -10,6 +10,7 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
 **touch <name.file>** -- creates a new file
+**cp <file/directory> <directory>** -- copies a file/directory into another file/directory
 
 ---
 
@@ -24,7 +25,12 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+'ls' lists files and directories within the working directory
+'ls -a' lsits all files and directories within the working directory, including those starting with "." that are normally hidden
+'ls -l' lists all files/directories within the working directory in long format
+'ls -lh'
+'ls -lah' lists 
+'ls -t' lists all files/directories and orders them by date of last modification
 
 ---
 
