@@ -18,6 +18,12 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 - **[command] >> [file]** -- redirects standard output into a file after original content
 - **[command] < [file]** -- takes a [file] as standard input for the [command]
 - **cat <file>** -- outputs contents of a file
+- **<command> | <command> ** -- pipe: takes standard output of the command and makes it the input of a second command
+- **wc** -- line count, word count, character count
+- **sort** -- sorts standard input alphabtically for the standard output
+- **uniq** -- removes lines from a file that are the same and adjacent
+- **grep [-i] <string> <file/directory/input>** -- finds all lines with the "string". Use "-i" to make "string" case insensitive
+- 
  
 ---
 
@@ -37,8 +43,8 @@ What do the following commands do:
 - 'ls' lists files and directories within the working directory
 - 'ls -a' lsits all files and directories within the working directory, including those starting with "." that are normally hidden
 - 'ls -l' lists all files/directories within the working directory in long format
-- 'ls -lh'
-- 'ls -lah' lists 
+- 'ls -lh' same as -l, but lists human-readble file size
+- 'ls -lah' lists ALL filles/directories, even those hidden, in long format with human-readable file size
 - 'ls -t' lists all files/directories and orders them by date of last modification
 
 
