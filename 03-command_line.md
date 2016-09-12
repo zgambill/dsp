@@ -14,6 +14,10 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 - **rm [-r] <file/directory>** -- removes a file; use -r to remove a directory and all child directories/files
 - **mv <file/directory> <file/directory>** -- moves a file/directory to another file/directory. Move multiple files by making the last argument the destination.
 - **echo <string>** -- prints the given string
+- **[command] > [file]** -- redirects standard output into a file and overwrites all original content
+- **[command] >> [file]** -- redirects standard output into a file after original content
+- **[command] < [file]** -- takes a [file] as standard input for the [command]
+- **cat <file>** -- outputs contents of a file
  
 ---
 
