@@ -23,7 +23,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 - **sort** -- sorts standard input alphabtically for the standard output
 - **uniq** -- removes lines from a file that are the same and adjacent
 - **grep [-i] <string> <file/directory/input>** -- finds all lines with the "string". Use "-i" to make "string" case insensitive
-- 
+- **sed 
  
 ---
 
@@ -64,7 +64,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+I'm a little bit blurry on xargs, but it seems not identical, but fairly similar to Python's lambda. It takes a standard input, often through a pipe from another command, divides it into sublists, and iterates a command through its input. An example of xargs could be when deleting files in a directory, especially if there are a lot of files in that directory, or if you want to sort through files before deleting. An example of this could be:
+`ls | grep <string> | xargs rm` 
 
  
 
