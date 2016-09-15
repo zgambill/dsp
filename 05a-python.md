@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Lists and tuples are both sets of data, but lists are mutable and tuples are immutable. Because dictionary keys must be immutable, tuples can be dictionary keys, while lists cannot.
 
 ---
 
@@ -20,7 +20,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Lists and sets are almost identical, except for lists being ordered, while sets are unordered. With that said, hash functions
 
 ---
 
