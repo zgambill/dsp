@@ -28,7 +28,20 @@ Lists and sets are almost identical, except for lists being ordered, while sets 
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Lambda is used to make anonymous functions. Rather than defining a whole new function and calling that, lambda can easily be integrated into code. As far as I have seen, it is mostly useful for one-time functions that don't have to be called many times, where the function code fits fairly well on a single line. Lambda can also greatly benefit code readability, as the function is defined right there in the code, and if there are a variety of single-use functions, it's much easier to read the function integrated into the code right there rather than having to go find where it was defined, figure out what's happening, and then go back to reading.
+
+"Siblings" is a series of tuples representing myself and my 3 siblings, and the sorted command will be sorting by the second index, which is our age. I could have also defined `siblings` as a new object class with self.age and sorted by calling that rather than an index.
+```
+siblings = [
+('Tyler', 27)
+('Sam', 13)
+('Mollie', 25)
+('Zach', 19)
+]
+
+sorted(siblings, key=lambda siblings: siblings[1])
+```
+
 
 ---
 
@@ -36,8 +49,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+List comprehensions are ways to create expanded lists without writing everything out yourself. A great way to explain this is with a numerical list of some sort, perhaps within a given range. If you're creating a list of even numbers in `range(50)`, it's much easier to type `list = [x for x in range(50) if x % 2 == 0]` than to write out every even number between 0 and 50. List comprehensions are not solely for numbers-based lists, though. **NEED TO FINISH THIS SECTION**
 ---
 
 ###Complete the following problems by editing the files below:
