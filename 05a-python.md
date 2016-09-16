@@ -49,7 +49,13 @@ sorted(siblings, key=lambda siblings: siblings[1])
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-List comprehensions are ways to create expanded lists without writing everything out yourself. A great way to explain this is with a numerical list of some sort, perhaps within a given range. If you're creating a list of even numbers in `range(50)`, it's much easier to type `list = [x for x in range(50) if x % 2 == 0]` than to write out every even number between 0 and 50. List comprehensions are not solely for numbers-based lists, though. **NEED TO FINISH THIS SECTION**
+List comprehensions are ways to create expanded lists without writing everything out yourself. A great way to explain this is with a numerical list of some sort, perhaps within a given range. If you're creating a list of even numbers in `range(500)`, it's much easier to type `list = [x for x in range(500) if x % 2 == 0]` than to type out every even number between 0 and 500. List comprehensions are not solely for numbers-based lists, though, and can be used for all sorts of other applications.
+
+The map function is similar to list comprehensions, as it also allows for an expression to be evaluated to create a larger list. The map function, `map(function, iterable_object)`, is similar to using a `for` loop in that it takes a function and a sequence/some iterable object, and puts each item in the sequence through the provided function, ultimately returning a list. A very basic example of this could be to take a predefined function, `def sqr(x) = return x**2`, and an iterable object such as a list, `list = range(50)`, where you could then use `map(sqr, list)` to return a list of all the numbers in `range(50)` squared. Plus, writing `map(sqr, list)` is much cleaner and simpler than writing an entire `for` loop. 
+
+The filter function has nearly identical syntax to map, `filter(function, iterable_object)`, but, as the name suggests, filters through the list and returns only values in the iterable that make the function true. A simple example of this could be to define an `if` function called "evens" that returns True `if x % 2 == 0` and `else: return False`. With that function, we could take any list of integers and return a list of even numbers by using `filter(evens, list)`. 
+
+
 ---
 
 ###Complete the following problems by editing the files below:
