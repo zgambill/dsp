@@ -70,14 +70,18 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Three random variables: X = identical twins, Y = fraternal twins, and Z = twin brothers .
+Given the variables, `P(Z|Y) = 1/2 * 1/2 = 1/4, P(Z|X) = 1/2, P(X) = 1/300, P(Y) = 1/125.`
+Bayes Thm: `P(X|Z) = [P(Z|X)P(X)] / P(Z)`
+P(Z) = `P(Z|X)*P(X) + P(Z|Y)*P(Y)`
+If you use the equation I made from Bayes' Thm, subsitute `P(Z)` for the extended expression as shown, substitute in the numbers and evaluate the equation, you arrive at + `P(X|Z) = 5/11`
 
 ---
 
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+The main difference is that frequentist statistics see every data set as being drawn from an infinite set of possibilities and trials, and as such are completely independent of prior outcomes and observations, while Bayesian statistics use prior information to adjust the odds accordingly. A basic analogy could be losing your cellphone; a method for finding your phone could be to call it, but if you lost it in a big house, you will have to go through every room and call your phone. If you know you tend to lose your phone in the kitchen and bathroom, though, you can adjust your process to prioritize looking in those locations before venturing into other areas.
 
 ---
 
